@@ -23,3 +23,4 @@ y = ('uno', 'dos', 'tres')
 
 for i in range(len(x)):
     eng2sp[x[i]] = y[i]
+print eng2sp
