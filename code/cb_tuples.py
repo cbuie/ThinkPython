@@ -97,5 +97,7 @@ print t
 
 
 
+import sys
+sys.path.append( '/Users/chrisbuie/PycharmProjects/ThinkPython/code')
 
 
