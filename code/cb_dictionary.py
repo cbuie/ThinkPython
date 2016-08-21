@@ -71,6 +71,7 @@ print dictionary()
 The first line of the function creates an empty dictionary. The for loop traverses the string. Each time through the loop, if the character c is not in the dictionary, we create a new item with key c and the initial value 1 (since we have seen this letter once). If c is already in the dictionary we increment d[c]
 '''
 
+
 def histogram(s):
     d = dict()
     for c in s:
