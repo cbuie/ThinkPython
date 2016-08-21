@@ -1,11 +1,25 @@
-# this file should sync across my system
+# General notes working with dictionaries from ThinkPython
 
-def thisWorked ():
-    print ('Your file is found.')
+#create dictionary:
 
+x = dict()
+x = {}
 
+print x
 
+# create empty dictionary of eng to spanish words:
 
-#success this file has been edited on multiple systems
+eng2sp = dict()
 
-thisWorked()
+#add elements to the dict()
+
+# eng2sp['one'] =  'uno'
+# print eng2sp
+
+#or
+
+x = ('one', 'two', 'three')
+y = ('uno', 'dos', 'tres')
+
+for i in range(len(x)):
+    eng2sp[x[i]] = y[i]
